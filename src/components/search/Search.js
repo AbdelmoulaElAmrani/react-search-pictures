@@ -24,7 +24,7 @@ class Search extends Component {
                 .catch(err => console.log("error"))
         })
     };
-    onAmountChange = (e , index , val) => this.setState({amount : val})
+    onAmountChange = (e , index , val) => this.setState({amount : val});
 
     render() {
         console.log(this.state)
